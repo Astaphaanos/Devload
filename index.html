@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Seta do Dropdown-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!--Search SVG-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="/build/main.css">
+
+    <title>Devload - Encontre os Apps perfeitos para Dev's</title>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div>
+                <img src="image/logo/logo.png" alt="Logo AppDevload">
+            </div>
+
+            <div class="menu">
+                <div class="hamburger" id="hamburger">
+                    <span class="hamburger line"></span>
+                    <span class="hamburger line"></span>
+                    <span class="hamburger line"></span>
+                </div>
+            </div>
+            
+            <nav class="nav" id="nav">
+                <ul>
+                    <li><a href="#about">Home</a></li>
+                    <li><a href="#apps-grid">Apps</a></li>
+                    <li><a href="#faqs">Help</a></li>
+                    <li><a href="#feedback-section">Feedback</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Sobre o site-->
+        <main>
+            <section id="about" class="section">
+                <div class="about-site slidein">
+                    <h1>Devload</h1>
+                    <h2>O Poder das Melhores Ferramentas de Desenvolvimento</h2>
+                    <p>
+                        Nosso site reuni as principais ferramentas que um programador pode precisar
+                    </p>
+                </div>
+
+                <!--Cards de Apps Animados-->
+                <div class="cards slidein">
+                    <div class="cards app--phycharm">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/pycharm--v1.png" alt="pycharm--v1"/>
+                    </div>
+                    <div class="cards app--git">
+                        <img width="48" height="48" src="https://img.icons8.com/color/240/git.png" alt="git"/>
+                    </div>
+                    <div class="cards app--npm">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/npm.png" alt="npm"/>
+                    </div>
+                    <div class="cards app--docker">
+                        <img width="48" height="48" src="https://img.icons8.com/fluency/48/docker.png" alt="docker"/>
+                    </div>
+                    <div class="cards app--mysql">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/mysql-logo.png" alt="mysql-logo"/>
+                    </div>
+                    <div class="cards app--figma">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/figma--v1.png" alt="figma--v1"/>
+                    </div>
+                    <div class="cards app--teams">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/microsoft-teams.png" alt="microsoft-teams"/>
+                    </div>
+                    <div class="cards app--android">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/android-studio--v2.png" alt="android-studio--v2"/>
+                    </div>
+                    <div class="cards app--webpack">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/webpack.png" alt="webpack"/>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <section id="apps-grid">
+            <div class="apps-list slidein">
+                <!--Editores de Texto e IDEs-->
+                <div class="app-conteudo">
+                    <h2>Editores de Texto e IDEs</h2>
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/visual-studio-code-2019.png" alt="visual-studio-code-2019"/> Visual Studio Code</h3>
+                    <p>Editor de código gratuito com extensões para várias linguagens e ferramentas.</p>
+                    <button><a href="https://code.visualstudio.com/docs" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/intellij-idea.png" alt="intellij-idea"/> IntelliJ IDEA</h3>
+                    <p>IDE poderosa para desenvolvimento Java e outras linguagens</p>
+                    <button><a href="https://www.jetbrains.com/idea/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/pycharm--v1.png" alt="pycharm--v1"/> PyCharm</h3>
+                    <p>IDE para desenvolvimento Python.</p>
+                    <button><a href="https://www.jetbrains.com/pycharm/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+                </div>
+
+                <!--Controle de Versão-->
+                <div class="app-conteudo">
+                    <h2>Controle de Versão</h2>
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/git.png" alt="git"/> Git</h3>
+                    <p>Ferramenta de controle de versão distribuída</p>
+                    <button><a href="https://git-scm.com/downloads" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><img width="28" height="28" src="https://img.icons8.com/ios-filled/50/github.png" alt="github"/> GitHub Desktop</h3>
+                    <p>Interface gráfica para GitHub.</p>
+                    <button><a href="https://desktop.github.com/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><img width="28" height="28" src="https://img.icons8.com/fluency/48/sourcetree.png" alt="sourcetree"/> SourceTree</h3>
+                    <p>Interface gráfica para Git.</p>
+                    <button><a href="https://www.sourcetreeapp.com/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+                </div>
+
+                <!--Gerenciamento de Pacotes-->
+                <div class="app-conteudo">
+                    <h2>Gerenciamento de Pacotes</h2>
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/npm.png" alt="npm"/> npm</h3>
+                    <p>Gerenciador de pacotes para JavaScript</p>
+                    <button><a href="https://docs.npmjs.com/getting-started" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 128 128" id="yarn"><path fill="#2c8ebb" d="M99.24,80.71C94.9,80.76,91.1,83,87.89,85c-6,3.71-9,3.47-9,3.47l-.1-.17c-.41-.67,1.92-6.68-.69-13.84-2.82-7.83-7.3-9.72-6.94-10.32,1.53-2.59,5.36-6.7,6.89-14.36.91-4.64.67-12.28-1.39-16.28-.38-.74-3.78,1.24-3.78,1.24s-3.18-7.09-4.07-7.66c-2.87-1.84-6,7.61-6,7.61a14,14,0,0,0-11.71,4.5,9.64,9.64,0,0,1-3.85,2.27c-.41.14-.91.12-2.15,3.47C43.2,50,48.34,55.74,48.34,55.74s-6.13,4.33-8.4,9.72a24.78,24.78,0,0,0-1.75,11.68s-4.36,3.78-4.64,7.68a12.87,12.87,0,0,0,1.77,7.83,1.94,1.94,0,0,0,2.63.91s-2.9,3.38-.19,4.81c2.47,1.29,6.63,2,8.83-.19,1.6-1.6,1.92-5.17,2.51-6.63.14-.34.62.57,1.08,1a10,10,0,0,0,1.36,1s-3.9,1.68-2.3,5.51c.53,1.27,2.42,2.08,5.51,2.06,1.15,0,13.76-.72,17.12-1.53a4.33,4.33,0,0,0,2.61-1.46,63,63,0,0,0,15.49-7c4.74-3.09,6.68-3.93,10.51-4.84C103.64,85.54,103.43,80.64,99.24,80.71Z"></path><path fill="#2c8ebb" d="M64,2a62,62,0,1,0,62,62A62,62,0,0,0,64,2Zm37.3,87.83c-3.35.81-4.91,1.44-9.41,4.36a67,67,0,0,1-15.56,7.18,8.71,8.71,0,0,1-3.64,1.77c-3.81.93-16.88,1.63-17.91,1.63h-.24c-4,0-6.27-1.24-7.49-2.54-3.4,1.7-7.8,1-11-.69a5.55,5.55,0,0,1-3-3.9,6,6,0,0,1,0-2.06,6.66,6.66,0,0,1-.79-1A16.38,16.38,0,0,1,30,84.52c.29-3.73,2.87-7.06,4.55-8.83A28.56,28.56,0,0,1,36.61,64a26.82,26.82,0,0,1,6.82-9c-1.65-2.78-3.33-7.06-1.7-11.42,1.17-3.11,2.13-4.84,4.24-5.58h0a6.84,6.84,0,0,0,2.51-1.34A17.65,17.65,0,0,1,60.34,31c.19-.48.41-1,.65-1.46,1.6-3.4,3.3-5.31,5.29-6a4.88,4.88,0,0,1,4.4.5c.65.43,1.48,1,3.9,6a4.69,4.69,0,0,1,2.85-.1,3.81,3.81,0,0,1,2.39,1.94c2.47,4.74,2.8,13.19,1.72,18.62a33.8,33.8,0,0,1-5.84,13.31,25.73,25.73,0,0,1,5.77,9.43,25.42,25.42,0,0,1,1.41,10.41A28.7,28.7,0,0,0,86,81.91c3.06-1.89,7.68-4.74,13.19-4.81a6.62,6.62,0,0,1,7,5.7A6.35,6.35,0,0,1,101.3,89.83Z"></path></svg> Yarn</h3>
+                    <p>Gerenciador de pacotes JavaScript</p>
+                    <button><a href="https://yarnpkg.com/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><img src="image/apps/homebrew.png" width="30px" alt="Homebrew logo"> Homebrew</h3>
+                    <p>Gerenciador de pacotes para macOS e Linux</p>
+                    <button><a href="https://brew.sh/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+                </div>
+
+
+                <!--Desenvolvimento Web-->
+                <div class="app-conteudo">
+                    <h2>Desenvolvimento Web</h2>
+                    <h3><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" id="postman"><path fill="#F36933" d="M18.855 6.049a.145.145 0 0 0-.053.159v-.001a.412.412 0 0 1-.054.45l.001-.001a.139.139 0 0 0-.03.087c0 .044.021.084.053.11a.143.143 0 0 0 .084.03c.042 0 .08-.02.106-.05a.69.69 0 0 0 .086-.752.138.138 0 0 0-.193-.032zM19.049 6.082l-.002-.004.001.003z"></path><path fill="#F36933" d="M13.527.099C6.955-.744.942 3.9.099 10.473c-.843 6.572 3.8 12.584 10.373 13.428 6.573.843 12.588-3.801 13.429-10.374C24.745 6.955 20.102.943 13.527.099zm2.471 7.485a.851.851 0 0 0-.593.25l-4.453 4.453-.95-.95c4.389-4.376 5.181-4.418 5.996-3.753zm-4.863 4.861 4.44-4.44a.62.62 0 1 1 .848.902l-.001.001-4.699 4.125-.588-.588zm.33.694-1.1.238a.057.057 0 0 1-.013.001.06.06 0 0 1-.054-.033.06.06 0 0 1 .01-.073l.645-.645.512.512zm-2.803-.459 1.172-1.172.879.878-1.979.426a.11.11 0 0 1-.019.002.074.074 0 0 1-.066-.041.071.071 0 0 1-.011-.039c0-.021.009-.041.024-.054zm-3.646 6.057a.074.074 0 0 1-.069-.075v-.008a.077.077 0 0 1 .022-.046h.002l.946-.946 1.222 1.222-2.123-.147zm2.426-1.255a.227.227 0 0 0-.117.258v-.002l.203.865a.125.125 0 0 1-.211.117h-.003l-1.228-1.229 3.762-3.758 1.82-.393.874.874c-1.255 1.102-2.971 2.201-5.1 3.268zm5.278-3.428h-.002l-.839-.839 4.699-4.125a.985.985 0 0 0 .117-.125l.002-.002c-.147 1.345-2.029 3.245-3.977 5.091zm4.942-5.928a1.81 1.81 0 0 1-1.285-.532h.001l-.003-.002a1.822 1.822 0 0 1 2.461-2.681l-.003-.002-1.61 1.613a.117.117 0 0 0-.035.084c0 .033.013.063.035.084l1.247 1.247a1.801 1.801 0 0 1-.808.189zm1.294-.532c-.081.08-.169.151-.265.214l-.006.004h-.001l-1.207-1.207 1.533-1.533c.661.72.637 1.832-.054 2.522z"></path></svg> Postman</h3>
+                    <p>Ferramenta para testar APIs</p>
+                    <button><a href="https://www.postman.com/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><img src="image/apps/insomnia.png" width="24px" alt="Insomnia Logo"> Insomnia</h3>
+                    <p>Ferramenta para testar APIs</p>
+                    <button><a href="https://insomnia.rest/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><img width="28" height="28" src="https://img.icons8.com/fluency/48/docker.png" alt="docker"/> Docker</h3>
+                    <p>Plataforma para contêineres</p>
+                    <button><a href="https://www.docker.com/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+                </div>
+
+                <!--Banco de Dados-->
+                <div class="app-conteudo">
+                    <h2>Banco de Dados</h2>
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/mysql-logo.png" alt="mysql-logo"/> MySQL Workbench</h3>
+                    <p>Ferramenta para design, desenvolvimento e administração de bancos de dados MySQL</p>
+                    <button><a href="https://www.mysql.com/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><img src="image/apps/pgadmin.png" alt="pgAdmin logo"> pgAdmin</h3>
+                    <p>Ferramenta de gerenciamento para PostgreSQL</p>
+                    <button><a href="https://www.pgadmin.org/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/mongo-db.png" alt="mongo-db"/> MongoDB Compass</h3>
+                    <p>Interface gráfica para MongoDB</p>
+                    <button><a href="https://www.mongodb.com/products/tools/compass" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+                </div>
+
+                <!--Designer e Prototipagem-->
+                <div class="app-conteudo">
+                    <h2>Designer e Prototipagem</h2>
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/figma--v1.png" alt="figma--v1"/> Figma</h3>
+                    <p>Ferramenta de design e prototipagem colaborativa</p>
+                    <button><a href="https://www.figma.com/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/adobe-xd--v1.png" alt="adobe-xd--v1"/> Adobe XD</h3>
+                    <p>Ferramenta de design de interface e prototipagem</p>
+                    <button><a href="https://helpx.adobe.com/support/xd.html" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 48 48" id="sketch"><path fill="#fff" d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z"></path><mask id="a" style="mask-type:alpha" width="30" height="27" x="9" y="12" maskUnits="userSpaceOnUse"><path fill="#fff" fill-rule="evenodd" d="M15.8789 13.6575L23.9892 12.8L32.0995 13.6575L38.3785 22.0864L23.9892 38.8425L9.60001 22.0864L15.8789 13.6575Z" clip-rule="evenodd"></path></mask><g mask="url(#a)"><path fill="#FDB300" d="M9.23407 39.2084H38.7444V12.4341H9.23407V39.2084Z"></path></g><mask id="b" style="mask-type:alpha" width="15" height="17" x="9" y="22" maskUnits="userSpaceOnUse"><path fill="#fff" fill-rule="evenodd" d="M15.4284 22.0864L23.9892 38.8425L9.60001 22.0864H15.4284Z" clip-rule="evenodd"></path></mask><g mask="url(#b)"><path fill="#EA6C00" d="M9.23407 39.2085H24.3552V21.7205H9.23407V39.2085Z"></path></g><mask id="c" style="mask-type:alpha" width="16" height="17" x="23" y="22" maskUnits="userSpaceOnUse"><path fill="#fff" fill-rule="evenodd" d="M32.5501 22.0864L23.9892 38.8425L38.3785 22.0864H32.5501Z" clip-rule="evenodd"></path></mask><g mask="url(#c)"><path fill="#EA6C00" d="M23.6233 39.2085H38.7444V21.7205H23.6233V39.2085Z"></path></g><mask id="d" style="mask-type:alpha" width="18" height="17" x="15" y="22" maskUnits="userSpaceOnUse"><path fill="#fff" fill-rule="evenodd" d="M15.4284 22.0864H32.5501L23.9892 38.8425L15.4284 22.0864Z" clip-rule="evenodd"></path></mask><g mask="url(#d)"><path fill="#FDAD00" d="M15.0624 39.2085H32.9161V21.7205H15.0624V39.2085Z"></path></g><mask id="e" style="mask-type:alpha" width="9" height="11" x="15" y="12" maskUnits="userSpaceOnUse"><path fill="#fff" fill-rule="evenodd" d="M23.9892 12.8L15.8789 13.6575L15.4284 22.0864L23.9892 12.8Z" clip-rule="evenodd"></path></mask><g mask="url(#e)"><path fill="#FDD231" d="M15.0624 22.4523H24.3552V12.4341H15.0624V22.4523Z"></path></g><mask id="f" style="mask-type:alpha" width="10" height="11" x="23" y="12" maskUnits="userSpaceOnUse"><path fill="#fff" fill-rule="evenodd" d="M23.9892 12.8L32.0995 13.6575L32.5501 22.0864L23.9892 12.8Z" clip-rule="evenodd"></path></mask><g mask="url(#f)"><path fill="#FDD231" d="M23.6233 22.4523H32.916V12.4341H23.6233V22.4523Z"></path></g><mask id="g" style="mask-type:alpha" width="7" height="10" x="32" y="13" maskUnits="userSpaceOnUse"><path fill="#fff" fill-rule="evenodd" d="M38.3785 22.0864L32.0995 13.6575L32.5501 22.0864H38.3785Z" clip-rule="evenodd"></path></mask><g mask="url(#g)"><path fill="#FDAD00" d="M31.7336 22.4523H38.7444V13.2915H31.7336V22.4523Z"></path></g><mask id="h" style="mask-type:alpha" width="7" height="10" x="9" y="13" maskUnits="userSpaceOnUse"><path fill="#fff" fill-rule="evenodd" d="M9.60001 22.0864L15.8789 13.6575L15.4284 22.0864H9.60001Z" clip-rule="evenodd"></path></mask><g mask="url(#h)"><path fill="#FDAD00" d="M9.23407 22.4523H16.2449V13.2915H9.23407V22.4523Z"></path></g><mask id="i" style="mask-type:alpha" width="18" height="11" x="15" y="12" maskUnits="userSpaceOnUse"><path fill="#fff" fill-rule="evenodd" d="M23.9892 12.8L15.4284 22.0864H32.5501L23.9892 12.8Z" clip-rule="evenodd"></path></mask><g mask="url(#i)"><path fill="#FEEEB7" d="M15.0624 22.4523H32.9161V12.4341H15.0624V22.4523Z"></path></g></svg> Sketch</h3>
+                    <p>Ferramenta de design para macOS</p>
+                    <button><a href="https://www.sketch.com/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+                </div>
+    
+
+                <!--Comunicação e Colaboração-->
+                <div class="app-conteudo">
+                    <h2>Comunicação e Colaboração</h2>
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/slack.png" alt="slack"/> Slack</h3>
+                    <p>Plataforma de comunicação e colaboração em equipe</p>
+                    <button><a href="https://slack.com/intl/pt-br/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/microsoft-teams.png" alt="microsoft-teams"/> Microsoft Teams</h3>
+                    <p>Plataforma de colaboração e comunicação da Microsoft</p>
+                    <button><a href="https://www.microsoft.com/en-us/microsoft-teams/download-app" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/zoom.png" alt="zoom"/> Zoom</h3>
+                    <p>Ferramenta de videoconferência.</p>
+                    <button><a href="https://www.microsoft.com/en-us/microsoft-teams/download-app" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+                </div>
+                
+                <!--Ferramenta de Construção e Automação-->
+                <div class="app-conteudo">
+                    <h2>Ferramenta de Construção e Automação</h2>
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/jenkins.png" alt="jenkins"/> Jenkins</h3>
+                    <p>Ferramenta de integração contínua e entrega contínua.</p>
+                    <button><a href="https://www.jenkins.io/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/travis-ci.png" alt="travis-ci"/> Travis CI</h3>
+                    <p>Ferramenta de integração contínua hospedada</p>
+                    <button><a href="https://github.com/travis-ci/travis-ci" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/webpack.png" alt="webpack"/> Webpack</h3>
+                    <p>Bundler de módulos para JavaScript</p>
+                    <button><a href="https://webpack.js.org/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+                </div>
+
+                
+                <!--Desenvolvimento Mobile-->
+                <div class="app-conteudo">
+                    <h2>Desenvolvimento Mobile</h2>
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/android-studio--v2.png" alt="android-studio--v2"/> Android Studio</h3>
+                    <p>IDE oficial para desenvolvimento Android</p>
+                    <button><a href="https://developer.android.com/studio?hl=pt-br" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/xcode.png" alt="xcode"/> Xcode</h3>
+                    <p> IDE oficial para desenvolvimento iOS</p>
+                    <button><a href="https://developer.apple.com/xcode/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" enable-background="new 0 0 128 128" viewBox="0 0 128 128" id="react"><g fill="#61DAFB"><circle cx="64" cy="64" r="11.4"></circle><path d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3-12.5 4.8-19.3 11.4-19.3 18.8s6.9 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8zm-14.8-30.5c4.1 2.4 5.5 9.8 3.8 20.3-.3 2.1-.8 4.3-1.4 6.6-5.2-1.2-10.7-2-16.5-2.5-3.4-4.8-6.9-9.1-10.4-13 7.4-7.3 14.9-12.3 21-12.3 1.3 0 2.5.3 3.5.9zm-11.2 59.3c-1.8 3.2-3.9 6.4-6.1 9.6-3.7.3-7.4.4-11.2.4-3.9 0-7.6-.1-11.2-.4-2.2-3.2-4.2-6.4-6-9.6-1.9-3.3-3.7-6.7-5.3-10 1.6-3.3 3.4-6.7 5.3-10 1.8-3.2 3.9-6.4 6.1-9.6 3.7-.3 7.4-.4 11.2-.4 3.9 0 7.6.1 11.2.4 2.2 3.2 4.2 6.4 6 9.6 1.9 3.3 3.7 6.7 5.3 10-1.7 3.3-3.4 6.6-5.3 10zm8.3-3.3c1.5 3.5 2.7 6.9 3.8 10.3-3.4.8-7 1.4-10.8 1.9 1.2-1.9 2.5-3.9 3.6-6 1.2-2.1 2.3-4.2 3.4-6.2zm-25.6 27.1c-2.4-2.6-4.7-5.4-6.9-8.3 2.3.1 4.6.2 6.9.2 2.3 0 4.6-.1 6.9-.2-2.2 2.9-4.5 5.7-6.9 8.3zm-18.6-15c-3.8-.5-7.4-1.1-10.8-1.9 1.1-3.3 2.3-6.8 3.8-10.3 1.1 2 2.2 4.1 3.4 6.1 1.2 2.2 2.4 4.1 3.6 6.1zm-7-25.5c-1.5-3.5-2.7-6.9-3.8-10.3 3.4-.8 7-1.4 10.8-1.9-1.2 1.9-2.5 3.9-3.6 6-1.2 2.1-2.3 4.2-3.4 6.2zm25.6-27.1c2.4 2.6 4.7 5.4 6.9 8.3-2.3-.1-4.6-.2-6.9-.2-2.3 0-4.6.1-6.9.2 2.2-2.9 4.5-5.7 6.9-8.3zm22.2 21l-3.6-6c3.8.5 7.4 1.1 10.8 1.9-1.1 3.3-2.3 6.8-3.8 10.3-1.1-2.1-2.2-4.2-3.4-6.2zm-54.5-16.2c-1.7-10.5-.3-17.9 3.8-20.3 1-.6 2.2-.9 3.5-.9 6 0 13.5 4.9 21 12.3-3.5 3.8-7 8.2-10.4 13-5.8.5-11.3 1.4-16.5 2.5-.6-2.3-1-4.5-1.4-6.6zm-24.7 29c0-4.7 5.7-9.7 15.7-13.4 2-.8 4.2-1.5 6.4-2.1 1.6 5 3.6 10.3 6 15.6-2.4 5.3-4.5 10.5-6 15.5-13.8-4-22.1-10-22.1-15.6zm28.5 49.3c-4.1-2.4-5.5-9.8-3.8-20.3.3-2.1.8-4.3 1.4-6.6 5.2 1.2 10.7 2 16.5 2.5 3.4 4.8 6.9 9.1 10.4 13-7.4 7.3-14.9 12.3-21 12.3-1.3 0-2.5-.3-3.5-.9zm60.8-20.3c1.7 10.5.3 17.9-3.8 20.3-1 .6-2.2.9-3.5.9-6 0-13.5-4.9-21-12.3 3.5-3.8 7-8.2 10.4-13 5.8-.5 11.3-1.4 16.5-2.5.6 2.3 1 4.5 1.4 6.6zm9-15.6c-2 .8-4.2 1.5-6.4 2.1-1.6-5-3.6-10.3-6-15.6 2.4-5.3 4.5-10.5 6-15.5 13.8 4 22.1 10 22.1 15.6 0 4.7-5.8 9.7-15.7 13.4z"></path></g></svg> React Native</h3>
+                    <p>Framework para desenvolvimento mobile multiplataforma.</p>
+                    <button><a href="https://reactnative.dev/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>             
+                </div>
+
+                <!--Análise e Depuração-->
+                <div class="app-conteudo">
+                    <h2>Análise e Depuração</h2>
+                    <h3><img width="28" height="28" src="https://img.icons8.com/ios/50/000000/wireshark.png" alt="wireshark"/> Wireshark</h3>
+                    <p>Ferramenta de análise de rede.</p>
+                    <button><a href="https://www.wireshark.org/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><img src="image/apps/fiddler.png" width="24px" alt="Fiddler logo"> Fiddler</h3>
+                    <p>Ferramenta para depuração de tráfego HTTP</p>
+                    <button><a href="https://www.telerik.com/download/fiddler" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><img src="image/apps/charles.png" alt="Charles Proxy Logo"> Charles Proxy</h3>
+                    <p>Ferramenta de proxy HTTP/HTTPS para depuração de rede.</p>
+                    <button><a href="https://www.telerik.com/download/fiddler" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+                </div>
+
+                <!--Virtuação-->
+                <div class="app-conteudo">
+                    <h2>Virtuação</h2>
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/virtualbox.png" alt="virtualbox"/> VirtualBox</h3>
+                    <p>Software de virtualização gratuito e de código aberto.</p>
+                    <button><a href="https://www.virtualbox.org/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 128 128" id="vagrant"><polygon fill="#1159cc" points="122.5 23.9 122.5 12.82 95.91 28.3 95.91 37.64 74.63 83.54 63.99 90.87 63.99 124.48 86.8 111.33 122.5 23.9"></polygon><polygon fill="#1159cc" points="63.99 66.94 48.04 29.71 48.04 19.19 47.93 19.13 32.09 28.3 32.09 37.64 53.36 85.55 63.99 80.3 63.99 66.94"></polygon><polygon fill="#127eff" points="106.55 3.52 79.97 19.09 79.95 19.08 79.95 19.09 79.95 19.09 79.95 19.09 79.95 29.71 63.99 66.94 63.99 79.39 53.36 85.55 32.09 37.64 32.09 28.28 48.05 19.09 21.45 3.52 5.5 12.82 5.5 24.24 41.4 111.44 63.99 124.48 63.99 91.72 74.63 85.55 74.5 85.47 95.91 37.64 95.91 28.3 95.91 28.28 122.5 12.82 106.55 3.52"></polygon></svg> Vagrant</h3>
+                    <p>Ferramenta para criar e gerenciar ambientes de desenvolvimento virtualizados</p>
+                    <button><a href="https://www.vagrantup.com/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+                </div>
+
+
+                <!--Produtividade e Organização-->
+                <div class="app-conteudo">
+                    <h2>Produtividade e Organização</h2>
+                    <h3><img width="28" height="28" src="https://img.icons8.com/ios/50/notion.png" alt="notion"/> Notion</h3>
+                    <p>Ferramenta de produtividade e organização</p>
+                    <button><a href="https://www.notion.so/pt-br" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/trello.png" alt="trello"/> Trello</h3>
+                    <p>Aplicativo de gerenciamento de projetos e tarefas.</p>
+                    <button><a href="https://trello.com/pt-BR" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+                    
+                    <h3><img width="28" height="28" src="https://img.icons8.com/color/48/obsidian.png" alt="obsidian"/> Obsidian</h3>
+                    <p>Aplicativo de notas e gerenciamento de conhecimento.</p>
+                    <button><a href="https://obsidian.md/" target="_blank">Site Oficial</a></button>
+                    <button type="button">Download</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="faqs" class="slidein">
+            <h2>Perguntas Frequentes (FAQS)</h2>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Como fazer o dowload?</h3>
+                        <span class="material-symbols-outlined">arrow_drop_down</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Click no botão de Download abaixo do app que você quer baixar,
+                        ou faça o download diretamente do Site Oficial</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Os aplicativos disponíveis são gratuitos?</h3>
+                        <span class="material-symbols-outlined">arrow_drop_down</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>A maioria dos aplicativos listados é gratuita, mas alguns podem ter versões pagas ou assinaturas.
+                        Verifique a descrição de cada aplicativo para mais detalhes</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Preciso criar uma conta para baixar aplicativos?</h3>
+                        <span class="material-symbols-outlined">arrow_drop_down</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Não, você não precisa criar uma conta para baixar os aplicativos.
+                        Basta clicar no botão "Download" ao lado do aplicativo desejado</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Como posso sugerir um novo aplicativo para ser adicionado ao site?</h3>
+                        <span class="material-symbols-outlined">arrow_drop_down</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Você pode sugerir novos aplicativos usando a seção de feedback do site.
+                        Preencha o formulário com os detalhes do aplicativo e clique em "Enviar"</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Os aplicativos são seguros para baixar?</h3>
+                        <span class="material-symbols-outlined">arrow_drop_down</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Fazemos o possível para listar apenas aplicativos de fontes confiáveis.
+                        No entanto, é sempre uma boa prática usar software antivírus ao baixar e instalar novos aplicativos</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Posso baixar aplicativos para diferentes sistemas operacionais?</h3>
+                        <span class="material-symbols-outlined">arrow_drop_down</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, fornecemos links de download para diferentes sistemas operacionais,
+                        como Windows, macOS, e Linux, quando disponíveis.
+                        Verifique a descrição do aplicativo para mais informações.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>O que devo fazer se encontrar um link quebrado ou um problema com o download?</h3>
+                        <span class="material-symbols-outlined">arrow_drop_down</span>
+                    </div>
+                    <div class="faq-answer active">
+                        <p>Se você encontrar um link quebrado ou tiver problemas com o download, por favor,
+                        use a seção de feedback para nos informar.
+                        Tentaremos resolver o problema o mais rápido possível.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Como posso entrar em contato com o suporte?</h3>
+                        <span class="material-symbols-outlined">arrow_drop_down</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Você pode entrar em contato conosco através da seção de
+                        feedback ou enviando um e-mail para appdevload@seusite.com</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Posso cancelar um download?</h3>
+                        <span class="material-symbols-outlined">arrow_drop_down</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, você pode cancelar o download no seu navegador
+                        clicando no botão de cancelamento que aparece ao lado do progresso do download.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Como sei se o aplicativo foi atualizado recentemente?</h3>
+                        <span class="material-symbols-outlined">arrow_drop_down</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Incluímos informações sobre a versão e a data da última atualização na descrição de cada aplicativo.
+                        Certifique-se de verificar essas informações antes de baixar.</p>
+                    </div>
+                </div>
+        </section>
+
+        <section id="feedback-section" class="slidein">
+            <div class="feedback-item">
+                <h2>Feedback</h2>
+                <h3>O que você está pensando?</h3>
+                <p>Adorariamos de saber quais são seus pensamentos e sugestões sobre o AppDevload <br>
+                Você pode usar o formulário ao lado, ou entrar em contato com o <a href="mailto:appdevload@site.com">appdevload@site.com</a> <br>
+                Se você escrever sobre um problema, por fazer inclua na mensagem todo o erro. <br>
+                Por favor, se lembre de checar sua caixa de spam!
+                </p>
+            </div>
+            <div class="feedback-form">
+                <form>
+                    <label>Mensagem:</label>
+                    <textarea cols="60" rows="7" ></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="social-media">
+                <a href="#" target="_blank">
+                    <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook--v1.png" alt="facebook--v1"/>
+                </a>
+                <a href="#" target="_blank">
+                    <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/FFFFFF/x.png" alt="x"/>
+                </a>
+                <a href="#" target="_blank">
+                    <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/FFFFFF/instagram-new--v1.png" alt="instagram-new--v1"/>
+                </a>
+                <a href="#" target="_blank">
+                    <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/FFFFFF/youtube-play.png" alt="youtube-play"/>
+                </a>
+                <a href="#" target="_blank">
+                    <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/FFFFFF/tiktok--v1.png" alt="tiktok--v1"/>
+                </a>
+            </div>
+
+            <div class="term-services">
+                <a href="#" target="_blank">
+                    <p>Privacy & Security</p>
+                </a>
+                <a href="#" target="_blank">
+                    <p>Privacy Policy</p>
+                </a>
+                <a href="#" target="_blank">
+                    <p>Terms of use</p>
+                </a>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2024 AppDevload. Todos os Direitos Autorais Reservados.</p>
+
+                <div class="dev">
+                    <p>Desenvolvido por <a href="https://www.linkedin.com/in/anna-clara-amorim/" target="_blank">Anna Clara Amorim Velôzo</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./src/js/app.js"></script>
+    <script src="./src/js/menu.js"></script>
+</body>
+</html>

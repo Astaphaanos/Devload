@@ -1,0 +1,151 @@
+@import './variaveis.scss';
+@import './breakpoints.scss';
+
+
+#feedback-section {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: $mobile-small) and (max-width: $mobile-large) {
+        display: block;
+        height: auto;
+        padding: 20px 0;
+
+        h2 {
+            font-size: 25px;
+        }
+
+        h3 {
+            font-size: 17px;
+        }
+
+        p {
+            font-size: 16px;
+            text-align: left;
+        }
+
+        form {
+            width: 80%;
+            margin-left: 20px;
+
+            label {
+                margin-top: 10px;
+            }
+
+            button {
+                width: 60%;
+                margin-bottom: 20px;
+                padding: 20px;
+            }
+        }
+    }
+
+    @media (min-width: $tablet-small) and (max-width: $tablet-large) {
+        display: block;
+        margin-left: 20px;
+        height: auto;
+
+        h2 {
+            font-size: 30px;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        form { 
+            margin-left: 20px;
+        }
+
+        button {
+            width: 20%;
+            padding: 15px;
+            margin-bottom: 30px;
+        }
+    }
+
+    @media (min-width: $desktop-small) and (max-width:$desktop-large) {
+        display: block;
+        height: auto;
+        margin-left: 30px;
+        text-align: justify;
+
+        form {
+            margin-left: 30px;
+        }
+
+        button {
+            width: 20%;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.feedback-item {
+    margin-right: 50px;
+
+    h2 {
+        font-size: 35px;
+        font-weight: bold;
+        padding: 10px 20px;
+        color: $text-color;
+    }
+
+    h3 {
+        font-size: 20px;
+        padding: 0 20px;
+        color: $text-color;
+    }
+
+    p {
+        font-size: 18px;
+        padding: 10px 20px;
+        text-align: justify;
+        color: $text-color;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.feedback-form form {
+    display: flex;
+    flex-direction: column;
+
+        label {
+            text-align: left;
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: $text-color;
+        }
+
+        textarea {
+            width: 100%; 
+            max-width: 600px; 
+            height: 150px; 
+            padding: 10px; 
+            background-color: #7c7c7c;
+            border: 1px solid #fff;
+        }
+    
+        button {
+            font-size: 15px;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            margin-top: 10px;
+            padding: 10px;
+            width: 40%;
+
+            &:hover {
+                background-color: #ffffffc5;
+            }
+        }
+}
+
+
+

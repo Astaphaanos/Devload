@@ -1,0 +1,165 @@
+@import './variaveis.scss';
+@import './breakpoints.scss';
+
+// Sobre o site
+#about { //Colocar uma gradiente com as cores principais
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    @media (max-width: $mobile-large) {
+        .cards {
+            .app--android, 
+            .app--docker, 
+            .app--figma, 
+            .app--git, 
+            .app--mysql, 
+            .app--npm, 
+            .app--teams, 
+            .app--webpack, 
+            .app--phycharm{
+                display: none;
+            }
+        }
+
+        .about-site {
+            h1 {
+                font-size: 30px;
+            }
+    
+            h2 {
+                font-size: 35px;
+                width: 230px;  
+                text-align: left;
+            }
+    
+            p {
+                width: 100%;
+                font-size: 15px;
+            }
+        }
+    }
+
+
+    @media (min-width: $tablet-small) {
+        .cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 55%;
+            margin-left: 20px;
+        }
+
+        h1 {
+            font-size: 25px;
+        }
+
+        h2 {
+            font-size: 35px;
+        }
+    }
+
+    @media (max-width: $tablet-large) {
+        .cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 50%;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+
+        h2 {
+            font-size: 40px;
+        }
+    }
+
+    @media (min-width: $desktop-small) and (max-width: $desktop-large){
+        .cards {
+            width: 35%;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 50px;
+        }
+    }
+
+    @media (min-width: $desktop-hd) {
+        width: 100vw;
+        
+        .cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            width: 40%;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        h2 {
+            font-size: 60px;
+        }
+    }
+}
+
+.about-site {
+    margin-left: 50px;
+    width: 50%;
+
+    h1 {
+        color: $text-color;
+        font-weight: bold;
+        font-size: 45px;
+        padding-top: 20px;
+        font-family: "Space Grotesk", sans-serif;
+    }
+
+    h2 {
+        color: $text-color;
+        font-weight: bold;
+        font-size: 47px;
+        margin: 10px 0;
+    }
+
+    p {
+        color: $text-color;
+        text-align: left;
+        margin: 10px 0;
+        font-size: 18px;
+        width: 50%;
+    }
+}
+
+.cards {
+    width: 45%;
+    display: grid;
+    gap: 3em;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+
+    &.app--phycharm,
+    .app--git,
+    .app--npm,
+    .app--docker,
+    .app--mysql,
+    .app--figma,
+    .app--teams,
+    .app--android,
+    .app--webpack {
+        padding: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.2);
+            transition: 0.3s;
+        }
+    }
+}

@@ -1,0 +1,96 @@
+@import './variaveis.scss';
+@import './breakpoints.scss';
+
+#apps-grid {
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+
+.apps-list {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    margin-top: 20px;
+
+    div {
+        border: 2px solid #807f7f81;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 25px;
+        margin: 10px 0;
+        color: $text-color;
+    }
+
+    div h3 {
+        font-size: 18px;
+        margin: 30px 0 10px;
+        font-weight: bold;
+        color: $text-color;
+    }
+
+    p {
+        font-size: 17px;
+        width: 50%;
+        margin-bottom: 10px;
+        color: $text-color; 
+    }
+
+    button {
+        padding: 15px;
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 10px 0 10px 5px;
+        cursor: pointer;
+        background-color: $cor-detalhes;
+        color: $text-color;
+
+        a {
+            text-decoration: none;
+            color: $text-color;
+        }
+
+        &:hover {
+            background-color: #257c7e;
+        }
+    }
+
+    //Mobile
+    @media (min-width: $mobile-small) and (max-width: $mobile-large) {
+        display: block;
+        padding: 0;
+
+        div {
+            margin-top: 10px;
+        }
+
+        div h3 {
+            font-size: 18px;
+        }
+
+        h2 {
+            font-size: 23px;
+        }
+    }
+
+    //Tablet
+    @media (min-width: $tablet-small) and (max-width: $tablet-large) {
+        display: block;
+    }
+
+    div {
+        margin-top: 20px;
+    }
+
+    //Desktop
+    @media (min-width: $desktop-small) and (max-width: $desktop-large){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+}
+
