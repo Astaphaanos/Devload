@@ -1,13 +1,15 @@
 # Devload 🚀
-Uma plataforma ou ferramenta para desenvolvedores.
+
+Uma plataforma ou ferramenta para desenvolvedores, desenvolvida com **HTML**, **SASS** e **JavaScript**.
 
 ## 🚀 Visite o Projeto
+
 Confira o deploy no Vercel: [Devload](https://devload.vercel.app/)
 
 ## 🛠️ Tecnologias Utilizadas
-- **React**: Biblioteca JavaScript para construção de interfaces.
-- **Vite**: Ferramenta de build rápida e moderna.
-- **CSS Modules**: Para estilização modularizada.
+- **HTML**: Para estruturação do conteúdo.
+- **SASS**: Para estilização avançada e modularizada.
+- **JavaScript**: Para interatividade e funcionalidades dinâmicas.
 - **Vercel**: Hospedagem e deploy do projeto.
 
 ## ✨ Funcionalidades
